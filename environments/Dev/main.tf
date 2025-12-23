@@ -8,7 +8,7 @@ module "vnet" {
   vnet   = var.vnet
 }
 
-module "compute" {
-  source = "../../modules/azurerm_compute"
-  vms    = var.vms
-}
+# module "compute" {
+#   source = "../../modules/azurerm_compute"
+#   vms    = var.vms
+# }
